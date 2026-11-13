@@ -252,7 +252,7 @@ serde_bytes = "0.11"
 serde-bytes-repr = "0.3"
 serde_json = { version = "1.0", features = ["raw_value"] }
 serde_urlencoded = "0.7"
-serde_with = "2.0.1"
+serde_with = "3.21.0"
 serde_yaml = "0.8"
 session-sharing-protocol = { git = "https://github.com/warpdotdev/session-sharing-protocol.git", rev = "5a0ad6135809feee9da2e9efae8bd6b54b89172e" }
 similar = { version = "2.7", features = ["inline"] }
@@ -384,7 +384,7 @@ typed-path = "0.10.0"
 streaming-iterator = "0.1.0"
 derivative = "2.2.0"
 parquet = { version = "55.0.0", features = ["arrow"] }
-rmcp = { version = "1.6" }
+rmcp = { version = "2.1" }
 
 [profile.release]
 # Use line-tables-only (debug = 1) rather than full debuginfo (debug = 2 /
